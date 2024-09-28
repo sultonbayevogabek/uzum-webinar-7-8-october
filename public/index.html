@@ -5,9 +5,195 @@
    <meta name="viewport"
          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Document</title>
+   <title>Vebinar - Rus tili</title>
+   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="bg-[#090704] px-3 overflow-x-hidden">
 
+<div class="container mx-auto">
+   <div class="flex flex-col min-h-screen lg:pr-[50%]">
+      <!--   DATE   -->
+      <div class="flex gap-2 lg:gap-3 xl:gap-4 w-full">
+         <div
+            class="w-auto flex-grow lg:flex-grow-0 lg:w-[200px] xl:w-[250px] py-2 text-center bg-white bg-opacity-[12%] rounded-b-[24px]">
+            <div class="text-[14px] xl:text-[20px] font-medium opacity-70">4-oktyabr</div>
+            <div class="text-[24px] xl:text-[40px] font-staatliches leading-[1.25]">20:30</div>
+         </div>
+
+         <div
+            class="w-auto flex-grow lg:flex-grow-0 lg:w-[200px] xl:w-[250px] py-2 text-center bg-white bg-opacity-[12%] rounded-b-[24px]">
+            <del class="text-[14px] xl:text-[20px] font-medium opacity-70">200 000 so'm</del>
+            <div class="text-[24px] xl:text-[40px] font-staatliches leading-[1.25] gradient-text">BEPUL</div>
+         </div>
+      </div>
+
+      <div class="flex flex-col grow gap-5 lg:gap-10 justify-center py-3 lg:py-5">
+         <div
+            class="self-center lg:self-auto pt-10 lg:pt-0 text-[36px] lg:text-[40px] xl:text-[52px] text-white uppercase text-center leading-[1] lg:text-left font-staatliches">
+        <span class="relative">
+          Rus
+
+          <img class="absolute left-0 top-[-20px] lg:top-[-30px] xl:top-[-30px] w-14 xl:w-20" src="img/flag.png"
+               alt="Flag image">
+        </span> tilida 0 dan gapirishgacha
+         </div>
+
+         <!--   MOBILE MENTOR   -->
+         <div class="block lg:hidden">
+            <img class="w-full md:w-3/4 block mx-auto" src="img/mentor@1x.png"
+                 srcset="img/mentor@1x.png 1x, img/mentor@2x.png 2x"
+                 alt="Mentor image">
+         </div>
+
+         <!--   BENEFITS LIST   -->
+         <ul class="order-1 lg:order-none flex flex-col gap-5 m-0 px-0 list-none">
+            <li class="flex items-start gap-3 lg:gap-4">
+               <img class="w-[30px] lg:w-[35px] xl:w-[40px] aspect-square" src="img/list_icon_1.svg" alt="">
+
+               <p class="xl:text-[20px] leading-[1.35] lg:leading-[1.5] opacity-70">
+                  Rus tilini 0 dan samarali o'rganish strategiyalarini
+               </p>
+            </li>
+
+            <li class="flex items-start gap-3 lg:gap-4">
+               <img class="w-[30px] lg:w-[35px] xl:w-[40px] aspect-square" src="img/list_icon_2.svg" alt="">
+
+               <p class="xl:text-[20px] leading-[1.35] lg:leading-[1.5] opacity-70">
+                  Rus tili gramatikasi va muloqot qilishni rivojlantirish uslublari
+               </p>
+            </li>
+
+            <li class="flex items-start gap-3 lg:gap-4">
+               <img class="w-[30px] lg:w-[35px] xl:w-[40px] aspect-square" src="img/list_icon_3.svg" alt="">
+
+               <p class="xl:text-[20px] leading-[1.35] lg:leading-[1.5] opacity-70">
+                  Rus tilida hayajon, qo'rquv va gapira olmaslikni yengish texnikalari
+               </p>
+            </li>
+         </ul>
+
+         <div
+            class="lg:w-max items-center justify-center lg:justify-start hidden lg:inline-flex gap-3 py-2 xl:py-3 px-3 lg:px-4 xl:px-5 bg-[#232721] rounded-[12px] lg:rounded-[16px] xl:rounded-[24px]">
+            <img class="shrink-0 w-[50px] lg:w-[65px] xl:w-[80px]" src="img/gift.png" alt="">
+
+            <p class="text-[14px] lg:text-[16px] xl:text-[20px] leading-[1.25] lg:leading-[1.5]">
+               Rus tilida gapirishni rivojlantirish qadamlari video darsligi
+            </p>
+         </div>
+
+         <div
+            class="lg:w-max hidden lg:inline-flex flex-wrap items-center bg-[#090704] gap-4 p-2 xl:p-3 rounded-[12px] lg:rounded-[16px] xl:rounded-[24px] border border-white border-opacity-20">
+            <div class="w-full lg:w-auto flex items-center justify-center lg:justify-start gap-1">
+               <img class="w-[27px] aspect-square lg:w-[45px] xl:w-[60px]" src="img/timer.png" alt="">
+               <div class="text-[14px] lg:text-[16px] xl:text-[18px] leading-[1.25] lg:leading-[1.5]">Ro‘yxatdan o‘tish  yakunlanishi:</div>
+            </div>
+
+            <div class="flex gap-4 flex-grow rounded-full bg-[#F6FAFC] bg-opacity-10 px-6 py-3">
+               <div class="flex-grow text-center flex flex-col gap-1">
+                  <div id="days" class="text-[18px] lg:text-[20px] xl:text-[24px] leading-[1] font-medium">0</div>
+                  <div class="text-[12px] lg:text-[14px] opacity-70 leading-[1]">kun</div>
+               </div>
+
+               <div class="w-[1px] self-stretch bg-white bg-opacity-10"></div>
+
+               <div class="flex-grow text-center flex flex-col gap-1">
+                  <div id="hours" class="text-[18px] lg:text-[20px] xl:text-[24px] leading-[1] font-medium">0</div>
+                  <div class="text-[12px] lg:text-[14px] opacity-70 leading-[1]">soat</div>
+               </div>
+
+               <div class="w-[1px] self-stretch bg-white bg-opacity-10"></div>
+
+               <div class="flex-grow text-center flex flex-col gap-1">
+                  <div id="minutes" class="text-[18px] lg:text-[20px] xl:text-[24px] leading-[1] font-medium">0</div>
+                  <div class="text-[12px] lg:text-[14px] opacity-70 leading-[1]">min</div>
+               </div>
+
+               <div class="w-[1px] self-stretch bg-white bg-opacity-10"></div>
+
+               <div class="flex-grow text-center flex flex-col gap-1">
+                  <div id="seconds" class="text-[18px] lg:text-[20px] xl:text-[24px] leading-[1] font-medium">0</div>
+                  <div class="text-[12px] lg:text-[14px] opacity-70 leading-[1]">sek</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="flex items-center justify-center lg:justify-start gap-10">
+            <button
+               data-main-button
+               class="gradient-button animate-bounce -mt-16 lg:mt-0 w-full xl:w-auto h-[65px] lg:h-[80px] xl:h-[100px] font-medium rounded-full text-[24px] lg:text-[32px] xl:text-[40px] xl:px-12 font-staatliches">
+               Ro'yxatdan o'tish
+            </button>
+
+            <div class="hidden xl:block text-center">
+               <strong class="block text-[24px] lg:text-[40px] font-staatliches leading-none gradient-text">BEPUL</strong>
+               <del class="block text-[22px] opacity-70">200 000 so'm</del>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<div class="fixed inset-0 grid place-items-center p-3 overflow-auto z-20 bg-black bg-opacity-50 hidden"
+     data-modal-backdrop data-modal-close>
+   <form data-form class="w-full max-w-[520px] p-5 lg:p-10 bg-white rounded-[8px] lg:rounded-[12px] relative">
+      <h2 class="mb-4 lg:mb-6 text-[24px] lg:text-[28px] xl:text-[32px] font-semibold text-black font-staatliches">
+         Ro'yxatdan o'tish</h2>
+
+      <div class="p-4 mb-2 lg:mb-4 text-red-800 rounded-lg bg-red-50 text-center hidden" data-form-alert>
+      </div>
+
+      <label class="block w-full mb-4 lg:mb-6">
+         <span class="text-[14px] lg:text-[16px] block mb-1.5 text-[#48635B]">Ism</span>
+         <input
+            class="w-full h-12 px-4 rounded-[8px] lg:rounded-[12px] bg-[#F3F7F8] border border-[#bed4da] focus:outline-0 text-black text-[14px] lg:text-[16px]"
+            id="name"
+            type="text" placeholder="Ismingizni kiriting" name="name">
+      </label>
+
+      <label class="block w-full mb-4 lg:mb-6" for="phone">
+         <span class="block mb-1.5 text-[#48635B] text-[14px] lg:text-[16px]">Telefon raqami</span>
+
+         <span class="flex h-12 rounded-[8px] lg:rounded-[12px] border border-[#bed4da] bg-[#F3F7F8] overflow-hidden">
+        <input class="bg-transparent border-none focus:outline-0 pl-4 w-[6ch] text-black text-[14px] lg:text-[16px]"
+               type="text" readonly value="+998">
+        <input class="grow bg-transparent border-none focus:outline-0 text-black text-[14px] lg:text-[16px]"
+               id="phone"
+               type="text"
+               name="phone"
+               maxlength="12"
+        >
+      </span>
+      </label>
+
+      <button
+         data-form-button
+         class="gradient-button w-full h-[55px] lg:h-[65px] font-medium rounded-full text-[24px] lg:text-[28px] xl:text-[32px] xl:px-12 font-staatliches">
+         Ro'yxatdan o'tish
+      </button>
+
+      <img data-modal-close class="w-3 lg:w-4 aspect-square absolute top-6 right-6 cursor-pointer" src="img/x.svg"
+           alt="close icon">
+   </form>
+</div>
+
+<script src="js/script.js"></script>
+
+<!-- Meta Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2656399384545081');
+    fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+               src="https://www.facebook.com/tr?id=2656399384545081&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 </body>
 </html>
