@@ -23,12 +23,9 @@
   font-style: normal;
   font-weight: 500;
   src: url('../fonts/unbounded-v7-latin-500.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/unbounded-v7-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('../fonts/unbounded-v7-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  url('../fonts/unbounded-v7-latin-500.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
-  url('../fonts/unbounded-v7-latin-500.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-  url('../fonts/unbounded-v7-latin-500.svg#Unbounded') format('svg'); /* Legacy iOS */
+  src: url('../fonts/unbounded-v7-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/unbounded-v7-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url('../fonts/unbounded-v7-latin-500.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */ url('../fonts/unbounded-v7-latin-500.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */ url('../fonts/unbounded-v7-latin-500.svg#Unbounded') format('svg'); /* Legacy iOS */
 }
+
 /* unbounded-600 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -36,11 +33,7 @@
   font-style: normal;
   font-weight: 600;
   src: url('../fonts/unbounded-v7-latin-600.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/unbounded-v7-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('../fonts/unbounded-v7-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  url('../fonts/unbounded-v7-latin-600.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
-  url('../fonts/unbounded-v7-latin-600.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-  url('../fonts/unbounded-v7-latin-600.svg#Unbounded') format('svg'); /* Legacy iOS */
+  src: url('../fonts/unbounded-v7-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/unbounded-v7-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url('../fonts/unbounded-v7-latin-600.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */ url('../fonts/unbounded-v7-latin-600.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */ url('../fonts/unbounded-v7-latin-600.svg#Unbounded') format('svg'); /* Legacy iOS */
 }
 
 /* bebas-neue-regular - latin */
@@ -50,11 +43,7 @@
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/bebas-neue-v14-latin-regular.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/bebas-neue-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('../fonts/bebas-neue-v14-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  url('../fonts/bebas-neue-v14-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
-  url('../fonts/bebas-neue-v14-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-  url('../fonts/bebas-neue-v14-latin-regular.svg#BebasNeue') format('svg'); /* Legacy iOS */
+  src: url('../fonts/bebas-neue-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/bebas-neue-v14-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url('../fonts/bebas-neue-v14-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */ url('../fonts/bebas-neue-v14-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */ url('../fonts/bebas-neue-v14-latin-regular.svg#BebasNeue') format('svg'); /* Legacy iOS */
 }
 
 body {
@@ -67,12 +56,6 @@ body {
   color: white;
 }
 
-.thank-you-page {
-  background-position: bottom right;
-  background-attachment: fixed;
-  background-image: url("../img/bg_thank_you@1x.jpg");
-}
-
 .gradient-text {
   background: -webkit-linear-gradient(#B68300, #FFE49C);
   -webkit-background-clip: text;
@@ -83,31 +66,23 @@ body {
   background: radial-gradient(50% 50% at 50% 50%, #B68300 0%, #ECBF47 100%);
 }
 
-.font-staatliches {
-  font-family: 'Staatliches', sans-serif;
+.font-unbounded {
+  font-family: 'Unbounded', sans-serif
 }
 
-.telegram-radial {
-  background-image: radial-gradient(#1F6588, #279FDB);
+.font-bebas {
+  font-family: 'Bebas Neue', sans-serif
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   body {
     background-image: url("../img/bg_main@2x.jpg");
   }
-
-  .thank-you-page {
-    background-image: url("../img/bg_thank_you@2x.jpg");
-  }
 }
 
 @media only screen and (max-width: 1024px) {
   body {
     background-image: none;
-  }
-
-  .thank-you-page {
-    background-image: url("../img/bg_thank_you_mobile@1x.jpg");
   }
 }
 
