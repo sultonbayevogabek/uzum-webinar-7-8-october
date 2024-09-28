@@ -16,26 +16,6 @@
   src: url('../fonts/sf_pro_500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-/* unbounded-500 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Unbounded';
-  font-style: normal;
-  font-weight: 500;
-  src: url('../fonts/unbounded-v7-latin-500.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/unbounded-v7-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/unbounded-v7-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url('../fonts/unbounded-v7-latin-500.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */ url('../fonts/unbounded-v7-latin-500.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */ url('../fonts/unbounded-v7-latin-500.svg#Unbounded') format('svg'); /* Legacy iOS */
-}
-
-/* unbounded-600 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Unbounded';
-  font-style: normal;
-  font-weight: 600;
-  src: url('../fonts/unbounded-v7-latin-600.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/unbounded-v7-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/unbounded-v7-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url('../fonts/unbounded-v7-latin-600.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */ url('../fonts/unbounded-v7-latin-600.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */ url('../fonts/unbounded-v7-latin-600.svg#Unbounded') format('svg'); /* Legacy iOS */
-}
-
 /* bebas-neue-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -48,22 +28,17 @@
 
 body {
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: top right;
   background-size: cover;
   background-attachment: fixed;
   background-image: url("../img/bg_main@1x.jpg");
+  background-color: #FDFBFF;
   font-family: "SF Pro Display", sans-serif;
-  color: white;
-}
-
-.gradient-text {
-  background: -webkit-linear-gradient(#B68300, #FFE49C);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #000000;
 }
 
 .gradient-button {
-  background: radial-gradient(50% 50% at 50% 50%, #B68300 0%, #ECBF47 100%);
+  background: radial-gradient(50% 50% at 50% 50%, #914AEC 0%, #7000FF 100%);
 }
 
 .font-unbounded {
@@ -74,22 +49,52 @@ body {
   font-family: 'Bebas Neue', sans-serif
 }
 
+.wrapper {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   body {
     background-image: url("../img/bg_main@2x.jpg");
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1120px) {
   body {
     background-image: none;
   }
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  @media only screen and (max-width: 1024px) {
-    .thank-you-page {
-      background-image: url("../img/bg_thank_you_mobile@2x.jpg");
-    }
+@media (min-width: 576px) {
+  .wrapper, .wrapper-sm {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1120px) {
+  .wrapper {
+    max-width: 1100px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .wrapper {
+    max-width: 80%;
   }
 }
