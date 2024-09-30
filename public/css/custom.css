@@ -37,6 +37,10 @@ body {
   color: #000000;
 }
 
+.thank-you-page {
+  background-image: none;
+}
+
 .gradient-button {
   background: radial-gradient(50% 50% at 50% 50%, #914AEC 0%, #7000FF 100%);
 }
