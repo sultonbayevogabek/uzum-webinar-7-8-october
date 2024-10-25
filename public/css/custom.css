@@ -37,8 +37,8 @@ body {
   color: #000000;
 }
 
-.thank-you-page {
-  background-image: none;
+.bg-telegram {
+  background-image: url("../img/bg_telegram@1x.jpg");
 }
 
 .gradient-button {
@@ -65,10 +65,14 @@ body {
   body {
     background-image: url("../img/bg_main@2x.jpg");
   }
+
+  .bg-telegram {
+    background-image: url("../img/bg_telegram@2x.jpg");
+  }
 }
 
 @media only screen and (max-width: 1120px) {
-  body {
+  body, .bg-telegram {
     background-image: none;
   }
 }
